@@ -24,20 +24,10 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     break;
-                case "chrome-headless":
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
-                    break;
-
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                     break;
-                case "firefox-headless":
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver(new FirefoxOptions().setHeadless(true));
-                    break;
-
                 case "ie":
                     if (System.getProperty("os.name").toLowerCase().contains("mac")) {
                         throw new WebDriverException("Your operating system does not support the requested browser");
@@ -52,14 +42,6 @@ public class Driver {
                     }
                     WebDriverManager.edgedriver().setup();
                     driver = new EdgeDriver();
-                    break;
-
-                case "safari":
-                    if (System.getProperty("os.name").toLowerCase().contains("windows")) {
-                        throw new WebDriverException("Your operating system does not support the requested browser");
-                    }
-                    WebDriverManager.getInstance(SafariDriver.class).setup();
-                    driver = new SafariDriver();
                     break;
             }
         }

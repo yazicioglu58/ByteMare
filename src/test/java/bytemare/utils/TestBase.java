@@ -16,22 +16,18 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public abstract class TestBase {
 	protected WebDriver driver;
-	protected Pages pages;
 
 	@BeforeMethod(alwaysRun = true)
 	public void setupMethod() {
 		//connect to the data base
-		DBUtils.createConnection();
+		//DBUtils.createConnection();
 		driver = Driver.getDriver();
-		pages = new Pages();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		pages.signin().openHomePage();
 	}
 
 	@AfterMethod(alwaysRun = true)
 	public void tearDownMethod(ITestResult result) throws IOException {
-
 		Driver.closeDriver();
 	}
 

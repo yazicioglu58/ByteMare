@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1f956cd-c7da-4391-9860-aea489e5c109" name="Default Changelist" comment="" />
+    <list default="true" id="e1f956cd-c7da-4391-9860-aea489e5c109" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bytemare/tests/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/pages/MyTeamPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/tests/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/tests/ReservationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/utils/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/utils/ApplicationConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_runner.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ScIIbtIBes6qt4wsDXiOMMQlP2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.65088207" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\myazicio\Desktop\ByteMare\JDBC-Automation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bytemare.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\myazicio\Desktop\ByteMare\JDBC-Automation\src" />
@@ -33,6 +64,61 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="TestNG.C:/Users/myazicio/Desktop/ByteMare/JDBC-Automation/testng_runner.xml">
+    <configuration name="C:/Users/myazicio/Desktop/ByteMare/JDBC-Automation/testng_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Automation-TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.ApplicationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Automation-TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bytemare.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bytemare.tests" />
+      <option name="MAIN_CLASS_NAME" value="bytemare.tests.RegistrationTest" />
+      <option name="METHOD_NAME" value="ApplicationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Automation-TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bytemare.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bytemare.tests" />
+      <option name="MAIN_CLASS_NAME" value="bytemare.tests.RegistrationTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/myazicio/Desktop/ByteMare/JDBC-Automation/testng_runner.xml" />
+        <item itemvalue="TestNG.RegistrationTest.ApplicationTest" />
+        <item itemvalue="TestNG.RegistrationTest.loginTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -45,5 +131,19 @@
       <updated>1571856378137</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
