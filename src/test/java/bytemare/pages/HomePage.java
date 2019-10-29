@@ -56,5 +56,16 @@ public class HomePage {
 		submitField.click();
         Assert.assertTrue(submittedMessage.getText().equals("Thanks for submitting!"));
 	}
+	public void FillOutApplication2() {
 
+		firstNameField.sendKeys(ApplicationConstants.firstname);
+		lastNameField.sendKeys(ApplicationConstants.lastname);
+		phoneNumberField.sendKeys(ApplicationConstants.phonenumber);
+		dobField.click();
+		dobSelectField.click();
+		ssnField.sendKeys(ApplicationConstants.ssn);
+		emailField.sendKeys(ApplicationConstants.email);
+		submitField.click();
+		Assert.assertTrue(submittedMessage.getText().equals("Thanks for submitting!"));
+	}
 }

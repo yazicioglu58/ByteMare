@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f956cd-c7da-4391-9860-aea489e5c109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bytemare/tests/RegistrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/pages/MyTeamPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/tests/LoginTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/tests/ReservationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/utils/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/utils/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/utils/ApplicationConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/utils/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/tests/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bytemare/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bytemare/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bytemare/tests/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bytemare/tests/RegistrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bytemare/utils/BrowserUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bytemare/utils/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bytemare/utils/BrowserUtils.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/myazicio/Desktop/ByteMare/JDBC-Automation/testng_runner.xml">
+  <component name="RunManager" selected="TestNG.RegistrationTest.ApplicationTest2">
     <configuration name="C:/Users/myazicio/Desktop/ByteMare/JDBC-Automation/testng_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JDBC-Automation-TestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_runner.xml" />
@@ -93,6 +85,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest.ApplicationTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JDBC-Automation-TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bytemare.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bytemare.tests" />
+      <option name="MAIN_CLASS_NAME" value="bytemare.tests.RegistrationTest" />
+      <option name="METHOD_NAME" value="ApplicationTest2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistrationTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JDBC-Automation-TestNG" />
       <extension name="coverage">
@@ -113,8 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/myazicio/Desktop/ByteMare/JDBC-Automation/testng_runner.xml" />
+        <item itemvalue="TestNG.RegistrationTest.ApplicationTest2" />
         <item itemvalue="TestNG.RegistrationTest.ApplicationTest" />
+        <item itemvalue="TestNG.C:/Users/myazicio/Desktop/ByteMare/JDBC-Automation/testng_runner.xml" />
         <item itemvalue="TestNG.RegistrationTest.loginTest" />
       </list>
     </recent_temporary>
@@ -137,7 +148,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

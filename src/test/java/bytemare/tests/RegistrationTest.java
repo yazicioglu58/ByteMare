@@ -15,4 +15,21 @@ public class RegistrationTest extends TestBase {
 		driver.get(ConfigurationReader.getProperty("url"));
 		homePage.FillOutApplication();
 	}
+
+
+
+	@Test
+	public void ApplicationTest2() {
+		// use contants
+		driver.get(ConfigurationReader.getProperty("url"));
+		homePage.FillOutApplication2();
+	}
+
+	@Test
+	public void ApplicationTest3() {
+
+		//data driven
+		driver.get(ConfigurationReader.getProperty("url"));
+		homePage.FillOutApplication();
+	}
 }
