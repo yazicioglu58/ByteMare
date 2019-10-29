@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1f956cd-c7da-4391-9860-aea489e5c109" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bytemare/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bytemare/tests/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bytemare/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bytemare/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bytemare/tests/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bytemare/tests/RegistrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bytemare/utils/BrowserUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bytemare/utils/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bytemare/utils/BrowserUtils.class" afterDir="false" />
-    </list>
+    <list default="true" id="e1f956cd-c7da-4391-9860-aea489e5c109" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
