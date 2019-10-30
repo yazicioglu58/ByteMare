@@ -7,29 +7,28 @@ import bytemare.utils.Driver;
 import bytemare.utils.TestBase;
 import org.testng.annotations.Test;
 
+import java.util.Random;
+
 public class RegistrationTest extends TestBase {
 	HomePage homePage = new HomePage();
 
 	@Test
-	public void ApplicationTest() {
+	public void ApplicationTest1() {
 		driver.get(ConfigurationReader.getProperty("url"));
-		homePage.FillOutApplication();
+		homePage.FillOutApplicationWithRandomData();
 	}
-
-
 
 	@Test
 	public void ApplicationTest2() {
-		// use contants
 		driver.get(ConfigurationReader.getProperty("url"));
-		homePage.FillOutApplication2();
+		homePage.FillOutApplicationWithConstantsData();
 	}
 
 	@Test
 	public void ApplicationTest3() {
-
-		//data driven
 		driver.get(ConfigurationReader.getProperty("url"));
-		homePage.FillOutApplication();
+		Random random = new Random();
+		int row = random.nextInt(100);
+		homePage.FillOutApplicationWithExcelData(row);
 	}
 }
